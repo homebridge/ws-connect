@@ -7,7 +7,7 @@ This module is for Node.js 10+ only and will not work in the browser. The server
 ## Install
 
 ```
-npm install @oznu/ws-connect
+npm install @homebridge/ws-connect
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install @oznu/ws-connect
 ### Example
 
 ```js
-const { WebSocket } = require('@oznu/ws-connect')
+const { WebSocket } = require('@homebridge/ws-connect')
 
 // establish new websocket connection
 const socket = new WebSocket('ws://127.0.0.1:8080')
