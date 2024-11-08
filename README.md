@@ -109,3 +109,10 @@ Emitted when the connection is closed. `code` is a numeric value indicating the 
 * `message` {String}
 
 Emits human-readable messages regarding the status of the WebSocket connection such as disconnect and reconnecting events, ping timeouts, and errors. Useful for debugging.
+
+
+# Dependant Applications
+
+- homebridge-gsh
+
+- [NPM Dependants](https://www.npmjs.com/package/@homebridge/ws-connect?activeTab=dependents)
