@@ -7,7 +7,7 @@ This module is for Node.js 10+ only and will not work in the browser. The server
 ## Install
 
 ```
-npm install @oznu/ws-connect
+npm install @homebridge/ws-connect
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install @oznu/ws-connect
 ### Example
 
 ```js
-const { WebSocket } = require('@oznu/ws-connect')
+const { WebSocket } = require('@homebridge/ws-connect')
 
 // establish new websocket connection
 const socket = new WebSocket('ws://127.0.0.1:8080')
@@ -109,3 +109,10 @@ Emitted when the connection is closed. `code` is a numeric value indicating the 
 * `message` {String}
 
 Emits human-readable messages regarding the status of the WebSocket connection such as disconnect and reconnecting events, ping timeouts, and errors. Useful for debugging.
+
+
+# Dependant Applications
+
+- homebridge-gsh
+
+- [NPM Dependants](https://www.npmjs.com/package/@homebridge/ws-connect?activeTab=dependents)
